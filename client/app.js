@@ -1,4 +1,11 @@
 $(document).ready(function () {
+  // $.ajax({
+  //   type: "GET",
+  //   url: "/api/count",
+  //   dataType: "json",
+  // }).then((res) => {
+  //   $(".text").html(res.count);
+  // });
   $("#btnSubmit").on("click", () => {
     $.ajax({
       type: "GET",
