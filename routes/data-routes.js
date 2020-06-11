@@ -11,4 +11,8 @@ router.post("/api/test/:fname", (req, res) => {
   res.json(req.params);
 });
 
+router.put("/api/query", (req, res) => {
+  console.log(req.query);
+  res.json(req.query);
+});
 module.exports = router;
